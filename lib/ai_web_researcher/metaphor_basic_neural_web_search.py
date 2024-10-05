@@ -38,7 +38,7 @@ def get_metaphor_client():
     Returns:
         Metaphor: An instance of the Metaphor client.
     """
-    METAPHOR_API_KEY = os.environ.get('METAPHOR_API_KEY')
+    METAPHOR_API_KEY = os.environ.get('71d50050-74aa-4c11-99f1-8f75710e2cc8')
     if not METAPHOR_API_KEY:
         raise ValueError("METAPHOR_API_KEY environment variable not set!")
     return Exa(METAPHOR_API_KEY)

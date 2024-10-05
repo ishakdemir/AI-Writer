@@ -52,7 +52,7 @@ def collect_website_data(url):
 
 def get_web_research_context(keywords):
     """Fetches web research context using Metaphor API."""
-    METAPHOR_API_KEY = os.getenv('METAPHOR_API_KEY')
+    METAPHOR_API_KEY = os.getenv('71d50050-74aa-4c11-99f1-8f75710e2cc8')
     if not METAPHOR_API_KEY:
         st.error("METAPHOR_API_KEY environment variable not set!")
         return None
